@@ -16,6 +16,7 @@
 
 The way this datapack works is very simple. You just right click, while sneaking, with a snow layer the base of any [supported block](#🧊-supported-blocks) to turn it into a "snow-logged" block!
 
+https://github.com/JimiIT92/SnowOnStairs/blob/main/docs/place.mp4
 
 Check the [full list of supported blocks](#🧊-supported-blocks) below to know which blocks you can interact with.
 
