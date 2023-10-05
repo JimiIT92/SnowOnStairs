@@ -1,0 +1,47 @@
+{
+    "parent": "minecraft:block/snow_height2",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 8080000
+            },
+            "model": "snow_on_stairs:block/snow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8080016
+            },
+            "model": "snow_on_stairs:block/slab"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8080032
+            },
+            "model": "snow_on_stairs:block/stairs/straight"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8080048
+            },
+            "model": "snow_on_stairs:block/stairs/inner_left"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8080064
+            },
+            "model": "snow_on_stairs:block/stairs/inner_right"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8080080
+            },
+            "model": "snow_on_stairs:block/stairs/outer_left"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8080096
+            },
+            "model": "snow_on_stairs:block/stairs/outer_right"
+        }
+    ]
+}

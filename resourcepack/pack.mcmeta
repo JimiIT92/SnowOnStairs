@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"pack_format": 18,
+		"description": [
+			{"text": "This is a ", "color": "green"},
+			{"text": "resourcepack", "color": "green", "underlined": true},
+			{"text": " for Snow on Stairs datapack ✔", "color": "green"}	
+		]
+	}
+}

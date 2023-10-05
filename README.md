@@ -41,7 +41,7 @@ You can find instructions on how to install the datapack and the resource pack [
     - When creating a new world, go to the `More` tab and click on `Data Packs` 
     <br/><p style="text-align: center;"><img src="./docs/datapacks.png" alt="The Data Packs tab" /></p>
 
-    - Drag and the drop the datapack file `snow_on_stairs-datapack-vX.X-mcVersion` inside the Data Packs screen, enable it and click `Done`
+    - Drag and drop the datapack file `snow_on_stairs-datapack-vX.X-mcVersion` inside the Data Packs screen, enable it and click `Done`
 
 https://github.com/JimiIT92/SnowOnStairs/assets/14943331/21c7856d-90f8-430d-87f4-a9e0a2e4bc5c
 

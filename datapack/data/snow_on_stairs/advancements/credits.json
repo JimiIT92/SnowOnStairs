@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: Minehendrix}"
+        },
+        "title": "Updated by Minehendrix",
+        "description": "Original pack by Boomber",
+        "background": "minecraft:textures/block/powder_snow.png",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "snow_on_stairs:snow_on_stairs",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
