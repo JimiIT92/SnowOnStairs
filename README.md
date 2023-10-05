@@ -16,7 +16,7 @@
 
 The way this datapack works is very simple. You just right click, while sneaking, with a snow layer the base of any [supported block](#🧊-supported-blocks) to turn it into a "snow-logged" block!
 
-https://github.com/JimiIT92/SnowOnStairs/blob/main/docs/place.mp4
+https://github.com/JimiIT92/SnowOnStairs/assets/14943331/557c1925-04ac-4617-95da-241c812fc837
 
 Check the [full list of supported blocks](#🧊-supported-blocks) below to know which blocks you can interact with.
 
@@ -43,11 +43,15 @@ You can find instructions on how to install the datapack and the resource pack [
 
     - Drag and the drop the datapack file `snow_on_stairs-datapack-vX.X-mcVersion` inside the Data Packs screen, enable it and click `Done`
 
+https://github.com/JimiIT92/SnowOnStairs/assets/14943331/21c7856d-90f8-430d-87f4-a9e0a2e4bc5c
+
 - #### INSTALLING THE RESOURCE PACK
 
     - From the main menu, or after joining a world with the Data Pack enabled, click `Options` and then `Resource Packs...` <br/><p style="text-align: center;"><img src="./docs/resourcepacks.png" alt="The Resource Packs tab" /></p>
 
     - Drag and drop the resourcepack file `snow_on_stairs-resourcepack-vX.X-mcVersion` inside the Resource Packs screen, enable it and click `Done`
+
+https://github.com/JimiIT92/SnowOnStairs/assets/14943331/cdd1f281-cf22-40eb-82c7-15369c3c1548
 
 ### 🔗 CAN I CONTRIBUTE?
 
