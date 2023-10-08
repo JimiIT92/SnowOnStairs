@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: Minehendrix}"
+            "nbt": "{SkullOwner:{Id:[I;1049753007,552033331,-1080698920,-1929434710],Properties:{textures:[{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FhMzRkZTFkYTJlZDhmNzdiODMwOTc0YWRlMWY2ZmY3ZWE1NzU0OTIzMzA2ZTI5N2ZlNGNjZTFmZDYyYzU2MCJ9fX0=\"}]}}}"
         },
         "title": "Updated by Minehendrix",
         "description": "Original pack by Boomber",
