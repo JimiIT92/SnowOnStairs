@@ -1,0 +1,2 @@
+summon armor_stand ~ ~ ~ {Tags: ['snow_on_stairs.snow', 'snow_on_stairs.spawning', 'global.ignore', 'global.ignore.pos', 'global.ignore.gui'], Invisible: 1b, Marker: 1b, Small: 1b, Silent: 1b, Invulnerable: 1b, NoGravity: 1b}
+execute as @e[type=armor_stand, tag=snow_on_stairs.spawning, limit=1] run function snow_on_stairs:snow/spawn/init

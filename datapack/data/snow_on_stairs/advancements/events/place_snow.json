@@ -26,6 +26,6 @@
     },
     "parent": "snow_on_stairs:events/root",
     "rewards": {
-        "function": "snow_on_stairs:events/place_snow"
+        "function": "snow_on_stairs:event/place_snow"
     }
 }

@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #snow_on_stairs:snowable unless entity @e[type=armor_stand, tag=snow_on_stairs.snow, distance=..0.3] run function snow_on_stairs:snow/check
+execute as @s[distance=..5.5] if score #raycast snow.success matches 0 positioned ^ ^ ^0.1 run function snow_on_stairs:snow/search
