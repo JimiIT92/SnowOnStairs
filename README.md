@@ -119,6 +119,9 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
     - Azalea
     - Flowering Azalea
     - Bamboo sapling
+- All leaves (under the `#minecraft:leaves` tag). This include:
+    - All tree leaves
+    - Mangrove Roots
 - All fences (under the `#minecraft:fences` tag)
 - All fence gates (under the `#minecraft:fence_gates` tag)
 - All walls (under the `#minecraft:walls` tag)
@@ -126,7 +129,10 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
     - All colored banners
     - The Ominous banner
     - All player-made banners
-- All signs (under the `#minecraft:signs` tag)
+- All signs (under the `#minecraft:all_signs` tag). This include:
+    - All placed signs (under the `#minecraft:standing_signs` tag)
+    - All wall signs (under the `#minecraft:wall_signs` tag)
+    - All hanging signs (under the `#minecraft:all_hanging_signs` tag)
 - All beds (under the `#minecraft:beds` tag)
 - All buttons (under the `#minecraft:buttons` tag)
 - All pressure plates (under the `#minecraft:pressure_plates` tag)
@@ -146,36 +152,86 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
     - Zombie Head
     - Creeper Head
     - Dragon Head
+    - Piglin Head
     - Player Heads (including custom ones)
-- All glass blocks. These include:
+- All glass blocks. This include:
     - Glass
     - Colored Glass Blocks
-- All glass panes. These include:
+    - Tinted Glass
+- All glass panes. This include:
     - Glass Pane
     - Colored Glass Panes
+- All candles (under the `#minecraft:candles` tag)
+- All candle cakes (under the `#minecraft:candle_cakes` tag)
+- All mushrooms. This include:
+    - Red Mushroom
+    - Brown Mushroom
+    - Crimson Fungus
+    - Warped Fungus
+- All amethyst buds. This include:
+    - Small Amethyst Bud
+    - Medium Amethyst Bud
+    - Large Amethyst Bud
+    - Amethyst Cluster
+- All climbable blocks (under the `#minecraft:climbable` tag). This include:
+    - Ladder
+    - Scaffolding
+    - Kelp
+    - Vines
+    - Weeping Vines
+    - Twisting Vines
+    - Cave Vines
+- All dripleafs. This include:
+    - Small Dripleaf
+    - Big Dripleaf
+- All placeable eggs. This include:
+    - Turtle Egg
+    - Sniffer Egg
+- All corals (under the `#minecraft:corals` tag). This include:
+    - All coral plants (under the `#minecraft:coral_plants`tag)
+    - All coral fans
+    - All dead coral plants
+    - All dead coral plants
+- All Sculk Sensors. This include:
+    - Sculk Sensor
+    - Calibrated Sculk Sensor
+- All campfires (under the `#minecraft:campfires` tag). This include:
+    - Campfire
+    - Soul Campfire
+- All cauldrons (under the `#minecraft:cauldrons` tag). This include:
+    - Cauldron
+    - Water Cauldron
+    - Lava Cauldron
+    - Powder Snow Cauldron
+- All flower pots (under the `#minecraft:flower_pots` tag). This include:
+    - Flower Pot
+    - Flower Pot with a flower inside
+- Grass
+- Fern
+- Dead Bush
+- Crimson Roots
+- Warped Roots
+- Nether Sprouts
+- Tall Grass
+- Large Fern
+- Hanging Roots
+- Sweet Berry Bush
 - Iron Bars
 - Lever
 - Repeater
 - Comparator
 - Redstone
 - Hopper
-- Red Mushroom
-- Brown Mushroom
 - Bamboo
 - Sea Pickle
 - Chorus Plant
 - Chorus Flower
 - Cactus
 - Sugar Cane
-- Kelp
 - Cobweb
 - String
 - Tripwire Hook
-- Ladder
-- Scaffolding
-- Turtle Egg
 - Conduit
-- Cauldron
 - Brewing Stand
 - Cake
 - Bell
@@ -183,3 +239,12 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
 - Lantern
 - Soul Lantern
 - Chain
+- Pointed Dripstone
+- Sculk Vein
+- Beacon
+- End Rod
+- Lightning Rod
+- Dragon Egg
+- Slime Block
+- Honey Block
+- Monster Spawner

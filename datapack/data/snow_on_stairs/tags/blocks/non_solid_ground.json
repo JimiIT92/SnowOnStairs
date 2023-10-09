@@ -8,6 +8,6 @@
         "minecraft:void_air",
         "minecraft:kelp",
         "minecraft:kelp_plant",
-        "minecraft:ladder"
+        "#minecraft:climbable"
     ]
 }
