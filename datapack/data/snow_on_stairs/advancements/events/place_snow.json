@@ -1,31 +1,31 @@
 {
-    "criteria": {
-        "place_snow": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "snow_on_stairs:snowable"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:snow"
-                            ]
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "parent": "snow_on_stairs:events/root",
-    "rewards": {
-        "function": "snow_on_stairs:event/place_snow"
-    }
+	"criteria": {
+		"place_snow": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"tag": "snow_on_stairs:snowable"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:snow"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "snow_on_stairs:events/root",
+	"rewards": {
+		"function": "snow_on_stairs:event/place_snow"
+	}
 }

@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "impossible": {
+        "requirement": {
             "trigger": "minecraft:impossible"
         }
     }
