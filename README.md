@@ -113,6 +113,7 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
     - Mangrove Propagule
     - Cherry Leaves
     - Pink Petals
+    - Spore Blossom
 - All saplings (under the `#minecraft:saplings` tag). This include:
     - All tree saplings
     - Mangrove propagule
@@ -173,11 +174,10 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
     - Medium Amethyst Bud
     - Large Amethyst Bud
     - Amethyst Cluster
-- All climbable blocks (under the `#minecraft:climbable` tag). This include:
+- All climbable blocks (under the `#minecraft:climbable` tag, except Vines). This include:
     - Ladder
     - Scaffolding
     - Kelp
-    - Vines
     - Weeping Vines
     - Twisting Vines
     - Cave Vines
@@ -206,15 +206,6 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
 - All flower pots (under the `#minecraft:flower_pots` tag). This include:
     - Flower Pot
     - Flower Pot with a flower inside
-- Grass
-- Fern
-- Dead Bush
-- Crimson Roots
-- Warped Roots
-- Nether Sprouts
-- Tall Grass
-- Large Fern
-- Hanging Roots
 - Sweet Berry Bush
 - Iron Bars
 - Lever
@@ -240,7 +231,6 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
 - Soul Lantern
 - Chain
 - Pointed Dripstone
-- Sculk Vein
 - Beacon
 - End Rod
 - Lightning Rod
