@@ -237,4 +237,5 @@ Here is the current list of blocks that can be "snow-logged" (assuming no change
 - Dragon Egg
 - Slime Block
 - Honey Block
+- Decorated Pot
 - Monster Spawner

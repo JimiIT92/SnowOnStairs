@@ -148,6 +148,7 @@
         "minecraft:dragon_egg",
         "minecraft:slime_block",
         "minecraft:honey_block",
+        "minecraft:decorated_pot",
         "minecraft:spawner"
     ]
 }
