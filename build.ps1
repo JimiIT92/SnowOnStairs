@@ -20,10 +20,6 @@ Add-Content $HELP_FILE "- DO NOT UNZIP THE TWO EXTRACTED FILES"
 Add-Content $HELP_FILE "- To install the datapack: drag and drop the datapack file inside the Data Packs screen when creating a new world, enable it and click 'Done'"
 Add-Content $HELP_FILE "- To install the resourcepack: drag and drop the resourcepack file inside the Resource Packs screen or folder, enable it and click 'Done'"
 
-#Setup zip files
-Add-Type -AssemblyName System.IO.Compression
-Add-Type -AssemblyName System.IO.Compression.FileSystem
-
 #Create resource pack
 if (Test-Path $RESOURCE_PACK_PATH) {
     Remove-Item $RESOURCE_PACK_PATH -Force
