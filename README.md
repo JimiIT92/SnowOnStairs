@@ -84,6 +84,8 @@ These are the supported ways to donate:
 
 This datapack is a slightly modified version of the [Carpet on Stairs Datapack](https://github.com/oOBoomberOo/carpet_on_stairs) by **oOBoomberOo**. Basically all the functions and commands remained untouched, so all credits goes to him for the original work and idea! 😁
 
+I also want to thank [n0rd](https://stackoverflow.com/users/31782/n0rd) for helping me with the build script! 😀
+
 ### 😁 IN CONCLUSION
 
 I hope you like this datapack and the effort put into it to keep it always updated!
