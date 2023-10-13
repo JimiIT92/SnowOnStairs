@@ -98,140 +98,130 @@ The `#snow_on_stairs:snowable` tag can be used inside the Minecraft inventory to
 
 Here is the current list of blocks that can be "snow-logged" (assuming no changes has been made to the `#snow_on_stairs:snowable` tag):
 
-- All stairs (under the `#minecraft:stairs` tag)
-- All slabs (under the `#minecraft:slabs` tag)
-- All doors (under the `#minecraft:doors` tag)
-- All trapdoors (under the `#minecraft:trapdoors` tag)
-- All flowers (under the `#minecraft:flowers` tag). This include:
-    - All small flowers (under the `#minecraft:small_flowers` tag)
-    - All tall flowers (under the `#minecraft:tall_flowers` tag)
-    - Flowering Azalea Leaves
-    - Mangrove Propagule
-    - Cherry Leaves
-    - Pink Petals
-    - Spore Blossom
-- All saplings (under the `#minecraft:saplings` tag). This include:
-    - All tree saplings
-    - Mangrove propagule
-    - Azalea
-    - Flowering Azalea
-    - Bamboo sapling
-- All leaves (under the `#minecraft:leaves` tag). This include:
-    - All tree leaves
-    - Mangrove Roots
-- All fences (under the `#minecraft:fences` tag)
-- All fence gates (under the `#minecraft:fence_gates` tag)
-- All walls (under the `#minecraft:walls` tag)
+- All anvil states (under the `#minecraft:anvil` tag)
 - All banners (under the `#minecraft:banners` tag). This include:
     - All colored banners
-    - The Ominous banner
     - All player-made banners
-- All signs (under the `#minecraft:all_signs` tag). This include:
-    - All placed signs (under the `#minecraft:standing_signs` tag)
-    - All wall signs (under the `#minecraft:wall_signs` tag)
-    - All hanging signs (under the `#minecraft:all_hanging_signs` tag)
+    - Ominous banner
 - All beds (under the `#minecraft:beds` tag)
 - All buttons (under the `#minecraft:buttons` tag)
-- All pressure plates (under the `#minecraft:pressure_plates` tag)
-- All rails (under the `#minecraft:rails` tag)
-- All anvil states (under the `#minecraft:anvil` tag)
-- All torches. This include:
-    - Torch
-    - Soul Torch
-    - Redstone Torch
-- All chests. This include:
-    - Chest
-    - Trapped Chest
-    - Ender Chest
-- All skulls and heads. This include:
-    - Skeleton Skull
-    - Wither Skeleton Skull
-    - Zombie Head
-    - Creeper Head
-    - Dragon Head
-    - Piglin Head
-    - Player Heads (including custom ones)
-- All glass blocks. This include:
-    - Glass
-    - Colored Glass Blocks
-    - Tinted Glass
-- All glass panes. This include:
-    - Glass Pane
-    - Colored Glass Panes
-- All candles (under the `#minecraft:candles` tag)
-- All candle cakes (under the `#minecraft:candle_cakes` tag)
-- All mushrooms. This include:
-    - Red Mushroom
-    - Brown Mushroom
-    - Crimson Fungus
-    - Warped Fungus
-- All amethyst buds. This include:
-    - Small Amethyst Bud
-    - Medium Amethyst Bud
-    - Large Amethyst Bud
-    - Amethyst Cluster
-- All climbable blocks (under the `#minecraft:climbable` tag, except Vines). This include:
-    - Ladder
-    - Scaffolding
-    - Kelp
-    - Weeping Vines
-    - Twisting Vines
-    - Cave Vines
-- All dripleafs. This include:
-    - Small Dripleaf
-    - Big Dripleaf
-- All placeable eggs. This include:
-    - Turtle Egg
-    - Sniffer Egg
-- All corals (under the `#minecraft:corals` tag). This include:
-    - All coral plants (under the `#minecraft:coral_plants`tag)
-    - All coral fans
-    - All dead coral plants
-    - All dead coral plants
-- All Sculk Sensors. This include:
-    - Sculk Sensor
-    - Calibrated Sculk Sensor
 - All campfires (under the `#minecraft:campfires` tag). This include:
     - Campfire
     - Soul Campfire
+- All candles (under the `#minecraft:candles` tag)
+- All candle cakes (under the `#minecraft:candle_cakes` tag)
 - All cauldrons (under the `#minecraft:cauldrons` tag). This include:
     - Cauldron
     - Water Cauldron
     - Lava Cauldron
     - Powder Snow Cauldron
+- All climbable blocks (under the `#minecraft:climbable` tag, except Vines). This include:
+    - Cave Vines
+    - Kelp
+    - Ladder
+    - Scaffolding
+    - Twisting Vines
+    - Weeping Vines
+- All corals (under the `#minecraft:corals` tag). This include:
+    - All coral fans
+    - All coral plants (under the `#minecraft:coral_plants`tag)
+    - All dead coral fans
+    - All dead coral plants
+- All doors (under the `#minecraft:doors` tag)
+- All fences (under the `#minecraft:fences` tag)
+- All fence gates (under the `#minecraft:fence_gates` tag)
+- All flowers (under the `#minecraft:flowers` tag). This include:
+    - All small flowers (under the `#minecraft:small_flowers` tag)
+    - All tall flowers (under the `#minecraft:tall_flowers` tag)
+    - Cherry Leaves
+    - Flowering Azalea Leaves
+    - Mangrove Propagule
+    - Pink Petals
+    - Spore Blossom
 - All flower pots (under the `#minecraft:flower_pots` tag). This include:
     - Flower Pot
-    - Flower Pot with a flower inside
-- Sweet Berry Bush
-- Iron Bars
-- Lever
-- Repeater
-- Comparator
-- Redstone
-- Hopper
+    - Flower Pot with a flower inside  
+- All leaves (under the `#minecraft:leaves` tag). This include:
+    - All tree leaves
+    - Mangrove Roots
+- All pressure plates (under the `#minecraft:pressure_plates` tag)
+- All rails (under the `#minecraft:rails` tag)
+- All saplings (under the `#minecraft:saplings` tag). This include:
+    - All tree saplings
+    - Azalea
+    - Flowering Azalea
+    - Bamboo sapling
+    - Mangrove propagule  
+- All signs (under the `#minecraft:all_signs` tag). This include:
+    - All placed signs (under the `#minecraft:standing_signs` tag)
+    - All wall signs (under the `#minecraft:wall_signs` tag)
+    - All hanging signs (under the `#minecraft:all_hanging_signs` tag)
+- All slabs (under the `#minecraft:slabs` tag)
+- All stairs (under the `#minecraft:stairs` tag)
+- All trapdoors (under the `#minecraft:trapdoors` tag)
+- All walls (under the `#minecraft:walls` tag)
+- All Colored Glass Blocks
+- All Colored Glass Panes
+- Crimson Fungus
+- Dragon Head
+- Piglin Head
+- Player Heads (including custom ones)
+- Red Mushroom
+- Sculk Sensor
+- Skeleton Skull
+- Small Dripleaf
+- Soul Torch
+- Tinted Glass
+- Torch  
+- Turtle Egg
+- Warped Fungus
+- Wither Skeleton Skull
+- Zombie Head
+- Redstone Torch
+- Glass Pane
+- Amethyst Cluster
 - Bamboo
-- Sea Pickle
-- Chorus Plant
-- Chorus Flower
-- Cactus
-- Sugar Cane
-- Cobweb
-- String
-- Tripwire Hook
-- Conduit
-- Brewing Stand
-- Cake
-- Bell
-- Grindstone
-- Lantern
-- Soul Lantern
-- Chain
-- Pointed Dripstone
 - Beacon
-- End Rod
-- Lightning Rod
-- Dragon Egg
-- Slime Block
-- Honey Block
+- Bell
+- Big Dripleaf
+- Brewing Stand
+- Brown Mushroom
+- Cactus
+- Cake
+- Calibrated Sculk Sensor
+- Chain
+- Chest
+- Chorus Flower
+- Chorus Plant
+- Cobweb
+- Comparator
+- Conduit
+- Creeper Head
 - Decorated Pot
+- Dragon Egg
+- End Rod
+- Ender Chest
+- Glass
+- Grindstone
+- Honey Block
+- Hopper
+- Iron Bars
+- Lantern
+- Large Amethyst Bud
+- Lever
+- Lightning Rod
+- Medium Amethyst Bud
 - Monster Spawner
+- Pointed Dripstone
+- Redstone
+- Repeater
+- Sea Pickle
+- Slime Block
+- Small Amethyst Bud
+- Sniffer Egg
+- Soul Lantern
+- String
+- Sugar Cane
+- Sweet Berry Bush
+- Trapped Chest
+- Tripwire Hook
