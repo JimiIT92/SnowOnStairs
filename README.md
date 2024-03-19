@@ -3,12 +3,12 @@
     <h3 style="text-align: center; text-transform: uppercase;">Place snow on top of stairs, slabs and many more blocks!</h3>
     <p style="text-align: center;">
         <a href="https://minecraft.net" target="_blank">
-            <img src="https://img.shields.io/badge/Minecraft-1.20.2-success" alt="Minecraft version" />
+            <img src="https://img.shields.io/badge/Minecraft-1.20.4-success" alt="Minecraft version" />
         </a>
         <a href="https://www.curseforge.com/minecraft/customization/snow-on-stairs-datapack" target="_blank">
             <img src="http://cf.way2muchnoise.eu/full_435001_downloads.svg" alt="CurseForge downloads" />
         </a>
-        <img src="https://img.shields.io/badge/Version-5.0-blue" alt="Datapack version" />
+        <img src="https://img.shields.io/badge/Version-5.1-blue" alt="Datapack version" />
     </p>
 </p>
 
