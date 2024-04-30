@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:knowledge_book"
+            "id": "minecraft:knowledge_book"
         },
         "title": "Installed Datapacks",
         "description": "",
