@@ -8,6 +8,9 @@
         <a href="https://www.curseforge.com/minecraft/customization/snow-on-stairs-datapack" target="_blank">
             <img src="http://cf.way2muchnoise.eu/full_435001_downloads.svg" alt="CurseForge downloads" />
         </a>
+        <a href="https://modrinth.com/datapack/snow-on-stairs" target="_blank">
+            <img src="https://img.shields.io/modrinth/dt/M1sIP877?logo=modrinth&label=Modrinth&color=darkgreen" alt="Modrinth downloads" />
+        </a>
         <img src="https://img.shields.io/badge/Version-5.2-blue" alt="Datapack version" />
     </p>
 </p>
@@ -22,7 +25,7 @@ Make sure to also use the provided resource pack, otherwise you won't be able to
 
 ### 🌐 HOW TO DOWNLOAD
 
-You can download both the datapack and the resource pack from [CurseForge](https://www.curseforge.com/minecraft/customization/snow-on-stairs-datapack/files).
+You can download both the datapack and the resource pack from [CurseForge](https://www.curseforge.com/minecraft/customization/snow-on-stairs-datapack/files) or [Modrinth](https://modrinth.com/datapack/snow-on-stairs/versions).
 
 Inside the ZIP file youll find both the datapack and the resourcepack. Make sure to install them correctly,
 otherwise things may not work properly.
