@@ -157,6 +157,8 @@
         "minecraft:waxed_copper_grate",
         "minecraft:waxed_exposed_copper_grate",
         "minecraft:waxed_weathered_copper_grate",
-        "minecraft:waxed_oxidized_copper_grate"
+        "minecraft:waxed_oxidized_copper_grate",
+        "minecraft:heavy_core",
+        "minecraft:trial_spawner"
     ]
 }
