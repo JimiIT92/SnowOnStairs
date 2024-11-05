@@ -1,12 +1,12 @@
 #Variables
-$VERSION = "5.3"
-$MC_VERSION = "1.21"
+$VERSION = "5.4"
+$MC_VERSION = "1.21.3"
 $NAME = "snow_on_stairs"
 $RESOURCE_PACK_FOLDER = "resourcepack"
 $DATA_PACK_FOLDER = "datapack"
 $PACK_EXTENSION = "v"+$VERSION+"-"+$MC_VERSION+".zip"
-$RESOURCE_PACK_PATH = ".\"+$NAME+"-"+$RESOURCE_PACK_FOLDER+"-"+$PACK_EXTENSION
-$DATA_PACK_PATH = ".\"+$NAME+"-"+$DATA_PACK_FOLDER+"-"+$PACK_EXTENSION
+$RESOURCE_PACK_PATH = $NAME+"-"+$RESOURCE_PACK_FOLDER+"-"+$PACK_EXTENSION
+$DATA_PACK_PATH = $NAME+"-"+$DATA_PACK_FOLDER+"-"+$PACK_EXTENSION
 $FULL_PACK_PATH = "Snow on Stairs "+$PACK_EXTENSION
 $PACK_PNG_PATH = "pack.png"
 $HELP_FILE = "How to install.txt"
@@ -21,22 +21,18 @@ Add-Content $HELP_FILE "- To install the datapack: drag and drop the datapack fi
 Add-Content $HELP_FILE "- To install the resourcepack: drag and drop the resourcepack file inside the Resource Packs screen or folder, enable it and click 'Done'"
 
 #Create resource pack
-if (Test-Path $RESOURCE_PACK_PATH) {
-    Remove-Item $RESOURCE_PACK_PATH -Force
-}
-7z a $RESOURCE_PACK_PATH $(".\"+$RESOURCE_PACK_FOLDER+"\*") $PACK_PNG_PATH
+
+Compress-Archive -force $("./"+$RESOURCE_PACK_FOLDER+"/*") $RESOURCE_PACK_PATH
+Compress-Archive -update $PACK_PNG_PATH $RESOURCE_PACK_PATH
 
 #Create data pack
-if (Test-Path $DATA_PACK_PATH) {
-    Remove-Item $DATA_PACK_PATH -Force
-}
-7z a $DATA_PACK_PATH $(".\"+$DATA_PACK_FOLDER+"\*") $PACK_PNG_PATH
+Compress-Archive -force $("./"+$DATA_PACK_FOLDER+"/*") $DATA_PACK_PATH
+Compress-Archive -update $PACK_PNG_PATH $DATA_PACK_PATH
 
 #Create Full pack file
-if (Test-Path $FULL_PACK_PATH) {
-    Remove-Item $FULL_PACK_PATH -Force
-}
-7z a $FULL_PACK_PATH $RESOURCE_PACK_PATH $DATA_PACK_PATH $HELP_FILE
+Compress-Archive -force $RESOURCE_PACK_PATH $FULL_PACK_PATH
+Compress-Archive -update $DATA_PACK_PATH $FULL_PACK_PATH
+Compress-Archive -update $HELP_FILE $FULL_PACK_PATH
 
 #Delete resource pack file
 Remove-Item $RESOURCE_PACK_PATH -Force
