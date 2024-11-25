@@ -1,0 +1,61 @@
+{
+    "model": {
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+        "type": "model",
+        "model": "block/snow_height2"
+      },
+      "cases": [
+        {
+          "when": "8080000",
+          "model": {
+            "type": "model",
+            "model": "snow_on_stairs:block/snow"
+          }
+        },
+        {
+            "when": "8080016",
+            "model": {
+              "type": "model",
+              "model": "snow_on_stairs:block/slab"
+            }
+        },
+        {
+            "when": "8080032",
+            "model": {
+              "type": "model",
+              "model": "snow_on_stairs:block/stairs/straight"
+            }
+        },
+        {
+            "when": "8080048",
+            "model": {
+              "type": "model",
+              "model": "snow_on_stairs:block/stairs/inner_left"
+            }
+        },
+        {
+            "when": "8080064",
+            "model": {
+              "type": "model",
+              "model": "snow_on_stairs:block/stairs/inner_right"
+            }
+        },
+        {
+            "when": "8080080",
+            "model": {
+              "type": "model",
+              "model": "snow_on_stairs:block/stairs/outer_left"
+            }
+        },
+        {
+            "when": "8080096",
+            "model": {
+              "type": "model",
+              "model": "snow_on_stairs:block/stairs/outer_right"
+            }
+        }
+      ]
+    }
+  }
