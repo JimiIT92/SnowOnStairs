@@ -83,6 +83,8 @@ This datapack is a slightly modified version of the [Carpet on Stairs Datapack](
 
 I also want to thank [n0rd](https://stackoverflow.com/users/31782/n0rd) for helping me with the build script! 😀
 
+Thank you to [GalSergey](https://www.reddit.com/user/GalSergey/) for helping me updating the DataPack to 1.21.4 😄
+
 ### 😁 IN CONCLUSION
 
 I hope you like this datapack and the effort put into it to keep it always updated!
