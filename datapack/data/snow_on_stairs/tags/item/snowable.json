@@ -159,6 +159,7 @@
         "minecraft:waxed_weathered_copper_grate",
         "minecraft:waxed_oxidized_copper_grate",
         "minecraft:heavy_core",
-        "minecraft:trial_spawner"
+        "minecraft:trial_spawner",
+        "minecraft:firefly_bush"
     ]
 }

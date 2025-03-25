@@ -1,6 +1,6 @@
 #Variables
-$VERSION = "5.5"
-$MC_VERSION = "1.21.4"
+$VERSION = "5.6"
+$MC_VERSION = "1.21.5"
 $NAME = "snow_on_stairs"
 $RESOURCE_PACK_FOLDER = "resourcepack"
 $DATA_PACK_FOLDER = "datapack"
