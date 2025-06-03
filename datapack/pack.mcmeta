@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 70,
+		"pack_format": 79,
 		"description": [
 			{"text": "This is ", "color": "red"},
 			{"text": "NOT", "color": "dark_red", "bold": true, "underlined": true},

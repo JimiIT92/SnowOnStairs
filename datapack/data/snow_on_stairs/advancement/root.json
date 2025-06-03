@@ -5,7 +5,7 @@
         },
         "title": "Installed Datapacks",
         "description": "",
-        "background": "minecraft:textures/block/powder_snow.png",
+        "background": "minecraft:block/powder_snow",
         "show_toast": false,
         "announce_to_chat": false
     },
