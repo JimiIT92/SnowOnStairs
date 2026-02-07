@@ -1,5 +1,3 @@
-say hit
-
 # Set the raycast hit score to 1
 scoreboard players set @s snow_on_stairs.raycast_hit 1
 
