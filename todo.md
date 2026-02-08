@@ -1,4 +1,3 @@
-- Check if block below snow block display is still valid 
 - Update on waterlogged block
 - slabs (top)
 - stairs (top)
