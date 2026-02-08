@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:fence_gates",
+        "#minecraft:doors",
+        "#minecraft:buttons",
+        "#minecraft:beds",
+        "minecraft:sweet_berry_bush",
+        "minecraft:grindstone",
+        "#minecraft:anvil",
+        "minecraft:brewing_stand",
+        "minecraft:bell",
+        "minecraft:beacon",
+        "minecraft:repeater",
+        "minecraft:comparator",
+        "minecraft:lever",
+        "minecraft:hopper",
+        "#minecraft:flower_pots",
+        "minecraft:cake",
+        "minecraft:dragon_egg",
+        "minecraft:lectern",
+        "minecraft:redstone_wire"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "click_snowable_block": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#snow_on_stairs:snow"
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#snow_on_stairs:snowable_blocks_on_base_requiring_sneaking"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#snow_on_stairs:snowable_blocks_on_base_non_waterlogged_requiring_sneaking",
+                    "state": {
+                      "waterlogged": "false"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "snow_on_stairs:event/place_snow_below_block_requiring_sneaking"
+  }
+}

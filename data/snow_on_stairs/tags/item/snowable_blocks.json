@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "#snow_on_stairs:snowable_blocks_on_base",
         "#minecraft:slabs",
         "#minecraft:stairs"
     ]

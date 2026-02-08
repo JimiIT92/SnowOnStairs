@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:trapdoors",
+        "#minecraft:wooden_shelves",
+        "#minecraft:all_signs",
+        "minecraft:chest",
+        "#minecraft:copper_chests",
+        "minecraft:ender_chest",
+        "minecraft:trapped_chest",
+        "#minecraft:copper_golem_statues",
+        "minecraft:decorated_pot"
+    ]
+}
