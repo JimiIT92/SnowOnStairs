@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "#snow_on_stairs:non_solid_ground"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#snow_on_stairs:snowable_blocks_on_base_non_waterlogged",
+                    "state": {
+                        "waterlogged": "true"
+                    }
+                }
+            }
+        }
+    ]
+}
