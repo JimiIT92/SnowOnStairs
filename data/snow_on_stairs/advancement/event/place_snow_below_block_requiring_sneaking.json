@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "click_snowable_block": {
+    "click_snowable_block_while_sneaking": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": {

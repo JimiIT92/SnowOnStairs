@@ -1,0 +1,47 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "blocks": "#snow_on_stairs:non_solid_ground"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "blocks": "#minecraft:slabs",
+                        "state": {
+                            "type": "bottom"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "blocks": "#minecraft:stairs",
+                        "state": {
+                            "half": "bottom"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

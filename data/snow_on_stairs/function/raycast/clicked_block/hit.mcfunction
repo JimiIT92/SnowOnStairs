@@ -1,2 +1,2 @@
 # Prevent placing snow near stairs
-execute rotated ~ 0 if block ^ ^ ^-1 #snow_on_stairs:snow unless block ~ ~-1 ~ #snow_on_stairs:non_solid_ground unless block ~ ~-1 ~ #minecraft:slabs[type=bottom] unless block ~ ~-1 ~ #minecraft:stairs[half=bottom] if predicate snow_on_stairs:not_in_fluid run return run function snow_on_stairs:raycast/clicked_block/store
+execute rotated ~ 0 if block ^ ^ ^-1 #snow_on_stairs:snow if predicate snow_on_stairs:can_be_snowed if predicate snow_on_stairs:not_in_fluid run return run function snow_on_stairs:raycast/clicked_block/store
