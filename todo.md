@@ -4,7 +4,7 @@
 - stairs (top)
 - Remove with shears
 - Remove bugged block displays with shears
-- Fix block display removal for smaller blocks (like flowers)
 - Fix placement in water
 - lightning (noticeable on buttons)
 - snow drop
+- automatic snow layer placement
