@@ -1,2 +1,2 @@
 # Check for blocks being broken. If so, remove the snow layer underneath
-execute as @e[tag=snow_on_stairs.snow,type=minecraft:block_display] at @s unless block ~ ~ ~ #snow_on_stairs:snowable_blocks run kill @s
+execute as @e[tag=snow_on_stairs.placed_snow_marker,type=minecraft:marker] at @s unless block ~ ~ ~ #snow_on_stairs:snowable_blocks run execute at @s at @s run function snow_on_stairs:destroy/remove_snow
