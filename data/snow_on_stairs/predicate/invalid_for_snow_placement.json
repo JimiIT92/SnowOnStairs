@@ -22,6 +22,39 @@
             }
         },
         {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#minecraft:slabs",
+                    "state": {
+                        "waterlogged": "true"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#minecraft:slabs",
+                    "state": {
+                        "type": "double"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#minecraft:stairs",
+                    "state": {
+                        "waterlogged": "true"
+                    }
+                }
+            }
+        },
+        {
             "condition": "minecraft:inverted",
             "term": {
                 "condition": "minecraft:location_check",

@@ -1,2 +1,2 @@
-# Prevent placing snow near stairs
-execute rotated ~ 0 if block ^ ^ ^-1 #snow_on_stairs:snow if predicate snow_on_stairs:can_be_snowed if predicate snow_on_stairs:not_in_fluid run return run function snow_on_stairs:raycast/clicked_block/store
+# Store the clicked block pos
+execute rotated ~ 0 if block ^ ^ ^-1 #snow_on_stairs:snow if predicate snow_on_stairs:can_be_snowed if predicate snow_on_stairs:not_in_fluid run function snow_on_stairs:raycast/clicked_block/store
