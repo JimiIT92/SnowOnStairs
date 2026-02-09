@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "click_snowable_block_while_sneaking": {
+    "place_snow_while_sneaking": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": {
@@ -12,7 +12,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "#snow_on_stairs:snow"
+              "items": "minecraft:snow"
             }
           },
           {
@@ -22,7 +22,7 @@
                 "condition": "minecraft:location_check",
                 "predicate": {
                   "block": {
-                    "blocks": "#snow_on_stairs:snowable_blocks_on_base_requiring_sneaking"
+                    "blocks": "#snow_on_stairs:snowable_blocks_on_base_require_sneaking"
                   }
                 }
               },
@@ -30,9 +30,20 @@
                 "condition": "minecraft:location_check",
                 "predicate": {
                   "block": {
-                    "blocks": "#snow_on_stairs:snowable_blocks_on_base_non_waterlogged_requiring_sneaking",
+                    "blocks": "#snow_on_stairs:snowable_blocks_on_base_non_waterlogged_require_sneaking",
                     "state": {
                       "waterlogged": "false"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:sweet_berry_bush",
+                    "state": {
+                      "age": "2"
                     }
                   }
                 }
@@ -44,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "snow_on_stairs:event/place_snow_below_block_requiring_sneaking"
+    "function": "snow_on_stairs:event/place_snow_while_sneaking"
   }
 }

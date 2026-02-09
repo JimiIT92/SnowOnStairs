@@ -1,13 +1,13 @@
 {
   "criteria": {
-    "click_snowable_block": {
+    "place_snow": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "#snow_on_stairs:snow"
+              "items": "minecraft:snow"
             }
           },
           {
@@ -36,9 +36,8 @@
                 "condition": "minecraft:location_check",
                 "predicate": {
                   "block": {
-                    "blocks": "#minecraft:slabs",
+                    "blocks": "#snow_on_stairs:snowable_slabs",
                     "state": {
-                      "type": "top",
                       "waterlogged": "false"
                     }
                   }
@@ -48,10 +47,31 @@
                 "condition": "minecraft:location_check",
                 "predicate": {
                   "block": {
-                    "blocks": "#minecraft:stairs",
+                    "blocks": "#snow_on_stairs:snowable_stairs",
                     "state": {
-                      "half": "top",
                       "waterlogged": "false"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:sweet_berry_bush",
+                    "state": {
+                      "age": "0"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:sweet_berry_bush",
+                    "state": {
+                      "age": "1"
                     }
                   }
                 }
@@ -63,6 +83,6 @@
     }
   },
   "rewards": {
-    "function": "snow_on_stairs:event/place_snow_below_block"
+    "function": "snow_on_stairs:event/place_snow"
   }
 }

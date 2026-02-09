@@ -1,3 +1,5 @@
+- check valid block
+- slabs (bottom)
 - stairs (top)
 - Remove with shears
 - Remove bugged block displays with shears

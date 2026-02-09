@@ -5,20 +5,19 @@
         "#minecraft:doors",
         "#minecraft:buttons",
         "#minecraft:beds",
-        "minecraft:sweet_berry_bush",
-        "minecraft:grindstone",
         "#minecraft:anvil",
+        "#minecraft:flower_pots",
+        "minecraft:grindstone",
         "minecraft:brewing_stand",
         "minecraft:bell",
         "minecraft:beacon",
+        "minecraft:dragon_egg",
+        "minecraft:redstone_wire",
         "minecraft:repeater",
         "minecraft:comparator",
         "minecraft:lever",
-        "minecraft:hopper",
-        "#minecraft:flower_pots",
-        "minecraft:cake",
-        "minecraft:dragon_egg",
         "minecraft:lectern",
-        "minecraft:redstone_wire"
+        "minecraft:hopper",
+        "minecraft:cake"
     ]
 }
