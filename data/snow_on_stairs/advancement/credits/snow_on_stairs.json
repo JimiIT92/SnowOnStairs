@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow"
+    },
+    "title": "Snow on stairs!",
+    "description": {
+      "text": "Place snow under stairs, slabs and many more blocks!",
+      "italic": true
+    },
+    "background": "minecraft:block/powder_snow",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "snow_on_stairs": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

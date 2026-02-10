@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Boomber"
+        }
+      }
+    },
+    "title": "Boomber",
+    "description": {
+      "text": "Original datapack creator",
+      "italic": true
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "snow_on_stairs:credits/snow_on_stairs",
+  "criteria": {
+    "credit": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

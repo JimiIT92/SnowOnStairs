@@ -1,6 +1,8 @@
 {
     "replace": false,
     "values": [
+        "#snow_on_stairs:snowable_stairs",
+        "#snow_on_stairs:snowable_slabs",
         "#minecraft:fences",
         "#minecraft:pressure_plates",
         "#minecraft:walls",

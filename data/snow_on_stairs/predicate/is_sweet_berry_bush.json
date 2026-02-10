@@ -1,0 +1,52 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:sweet_berry_bush",
+                    "state": {
+                        "age": "0"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:sweet_berry_bush",
+                    "state": {
+                        "age": "1"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_sneaking": true
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "minecraft:sweet_berry_bush",
+                            "state": {
+                                "age": "2"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
