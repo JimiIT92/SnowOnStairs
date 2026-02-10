@@ -1,0 +1,132 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:any_of",
+            "terms": [
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#snow_on_stairs:snowable_slabs",
+                            "state": {
+                                "type": "bottom"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#snow_on_stairs:snowable_stairs",
+                            "state": {
+                                "half": "top"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#snow_on_stairs:snowable_trapdoors",
+                            "state": {
+                                "half": "top"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#snow_on_stairs:snowable_blocks_on_base"
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#snow_on_stairs:snowable_blocks_on_base_require_sneaking"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "blocks": "#snow_on_stairs:invalid_for_snow_placement"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                        "block": {
+                            "blocks": "#snow_on_stairs:snowable_slabs",
+                            "state": {
+                                "type": "bottom"
+                            }
+                        }
+                    }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                        "block": {
+                            "blocks": "#snow_on_stairs:snowable_stairs",
+                            "state": {
+                                "half": "bottom"
+                            }
+                        }
+                    }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                        "block": {
+                            "blocks": "#snow_on_stairs:snowable_trapdoors",
+                            "state": {
+                                "half": "bottom"
+                            }
+                        }
+                    }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "fluid": {
+                        "fluids": [
+                            "minecraft:water",
+                            "minecraft:flowing_water",
+                            "minecraft:lava",
+                            "minecraft:flowing_lava"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

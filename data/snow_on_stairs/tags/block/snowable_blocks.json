@@ -3,8 +3,6 @@
     "values": [
         "#snow_on_stairs:snowable_blocks_on_base",
         "#snow_on_stairs:snowable_blocks_on_base_require_sneaking",
-        "#snow_on_stairs:snowable_blocks_on_base_non_waterlogged",
-        "#snow_on_stairs:snowable_blocks_on_base_non_waterlogged_require_sneaking",
         "#snow_on_stairs:snowable_slabs",
         "#snow_on_stairs:snowable_stairs"
     ]

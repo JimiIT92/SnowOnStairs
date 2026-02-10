@@ -1,2 +1,0 @@
-advancement revoke @s only snow_on_stairs:event/place_snow_while_sneaking
-function snow_on_stairs:event/place

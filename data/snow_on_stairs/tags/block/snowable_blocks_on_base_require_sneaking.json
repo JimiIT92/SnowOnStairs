@@ -1,16 +1,24 @@
 {
     "replace": false,
     "values": [
+        "#snow_on_stairs:snowable_trapdoors",
         "#minecraft:fence_gates",
         "#minecraft:doors",
         "#minecraft:buttons",
         "#minecraft:beds",
         "#minecraft:anvil",
         "#minecraft:flower_pots",
+        "#minecraft:wooden_shelves",
+        "#minecraft:all_signs",
+        "#minecraft:copper_chests",
+        "#minecraft:copper_golem_statues",
         "minecraft:grindstone",
         "minecraft:brewing_stand",
         "minecraft:bell",
         "minecraft:beacon",
+        "minecraft:decorated_pot",
+        "minecraft:chest",
+        "minecraft:ender_chest",
         "minecraft:dragon_egg",
         "minecraft:redstone_wire",
         "minecraft:repeater",
@@ -18,6 +26,7 @@
         "minecraft:lever",
         "minecraft:lectern",
         "minecraft:hopper",
+        "minecraft:trapped_chest",
         "minecraft:cake"
     ]
 }

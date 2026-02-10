@@ -11,70 +11,100 @@
             }
           },
           {
-            "condition": "minecraft:any_of",
+            "condition": "minecraft:all_of",
             "terms": [
               {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "block": {
-                    "blocks": "#snow_on_stairs:snowable_blocks_on_base"
-                  }
-                }
+                "condition": "minecraft:reference",
+                "name": "snow_on_stairs:valid_for_snow_placement"
               },
               {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "block": {
-                    "blocks": "#snow_on_stairs:snowable_blocks_on_base_non_waterlogged",
-                    "state": {
-                      "waterlogged": "false"
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "#snow_on_stairs:snowable_blocks_on_base"
+                      }
                     }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "block": {
-                    "blocks": "#snow_on_stairs:snowable_slabs",
-                    "state": {
-                      "waterlogged": "false"
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "#snow_on_stairs:snowable_slabs"
+                      }
                     }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "block": {
-                    "blocks": "#snow_on_stairs:snowable_stairs",
-                    "state": {
-                      "waterlogged": "false"
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "#snow_on_stairs:snowable_stairs"
+                      }
                     }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "block": {
-                    "blocks": "minecraft:sweet_berry_bush",
-                    "state": {
-                      "age": "0"
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:sweet_berry_bush",
+                        "state": {
+                          "age": "0"
+                        }
+                      }
                     }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "block": {
-                    "blocks": "minecraft:sweet_berry_bush",
-                    "state": {
-                      "age": "1"
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:sweet_berry_bush",
+                        "state": {
+                          "age": "1"
+                        }
+                      }
                     }
+                  },
+                  {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                      {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "flags": {
+                            "is_sneaking": true
+                          }
+                        }
+                      },
+                      {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "block": {
+                                "blocks": "#snow_on_stairs:snowable_blocks_on_base_require_sneaking"
+                              }
+                            }
+                          },
+                          {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                              "block": {
+                                "blocks": "minecraft:sweet_berry_bush",
+                                "state": {
+                                  "age": "2"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
                   }
-                }
+                ]
               }
             ]
           }
