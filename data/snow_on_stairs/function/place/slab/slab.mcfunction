@@ -1,1 +1,0 @@
-say Place on top of slab

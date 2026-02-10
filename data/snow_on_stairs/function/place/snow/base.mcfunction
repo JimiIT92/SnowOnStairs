@@ -1,0 +1,1 @@
+$summon minecraft:block_display ~-.5001 ~$(offset) ~-.5001 {block_state:{Name:"minecraft:snow"},Tags:["snow_on_stairs.snow"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1.002f,1.002f,1.002f],translation:[0f,0f,0f]}}
