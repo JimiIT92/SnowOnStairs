@@ -1,0 +1,1 @@
+say Place on stair inner right

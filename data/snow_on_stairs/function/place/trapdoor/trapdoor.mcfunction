@@ -1,0 +1,1 @@
+say Place on top of trapdoor
