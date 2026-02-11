@@ -44,7 +44,8 @@
                                     "block": {
                                         "blocks": "#snow_on_stairs:snowable_stairs",
                                         "state": {
-                                            "half": "bottom"
+                                            "half": "bottom",
+                                            "waterlogged": "false"
                                         }
                                     }
                                 }
@@ -55,7 +56,8 @@
                                     "block": {
                                         "blocks": "#snow_on_stairs:snowable_slabs",
                                         "state": {
-                                            "type": "bottom"
+                                            "type": "bottom",
+                                            "waterlogged": "false"
                                         }
                                     }
                                 }
