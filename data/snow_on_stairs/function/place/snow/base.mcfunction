@@ -9,7 +9,7 @@ $summon block_display ~ ~$(offset) ~ {\
     Passengers:[{\
         id:"minecraft:interaction",\
         width:1f,\
-        height:0.55f,\
+        height:0.125f,\
         Tags:["snow_on_stairs.snow",$(shape)]\
     }],\
     Tags: ["snow_on_stairs.snow",$(shape)] \
