@@ -1,5 +1,5 @@
 # Decrement raycast steps
-scoreboard players remove #snow_on_stairs snow_on_stairs.raycast.steps 1
+scoreboard players remove @s snow_on_stairs.raycast.steps 1
 
 # Check if a valid block has been hit and place snow accordingly
 execute align xyz positioned ~.5 ~.5 ~.5 \
@@ -11,4 +11,4 @@ execute align xyz positioned ~.5 ~.5 ~.5 \
         run return run function snow_on_stairs:place/check
 
 # Continue the raycast if steps remain
-execute if score #snow_on_stairs snow_on_stairs.raycast.steps matches 1.. if score #snow_on_stairs snow_on_stairs.raycast.hit matches 0.. positioned ^ ^ ^.1 run function snow_on_stairs:raycast/search
+execute if score @s snow_on_stairs.raycast.steps matches 1.. if score @s snow_on_stairs.raycast.hit matches 0.. positioned ^ ^ ^.1 run function snow_on_stairs:raycast/search

@@ -1,5 +1,2 @@
 - stairs (top)
-- Remove with shears
-- snow drop
 - snow piling
-- prevent remove existing snow layer blocks on placing

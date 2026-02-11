@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "remove_snow": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": {
+            "Tags": [
+              "snow_on_stairs.snow"
+            ]
+          }
+        },
+        "item": {
+          "items": "minecraft:air"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "snow_on_stairs:event/remove_snow"
+  }
+}
