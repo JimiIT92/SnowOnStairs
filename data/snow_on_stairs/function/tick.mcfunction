@@ -1,3 +1,1 @@
-# Check if the block has been updated and, if so, if also the snow block display needs to be changed
-
-# Check if the block is no longer valid and, if so, destroy the snow block display
+execute as @e[type=minecraft:interaction,tag=snow_on_stairs.snow] at @s run function snow_on_stairs:update/check
