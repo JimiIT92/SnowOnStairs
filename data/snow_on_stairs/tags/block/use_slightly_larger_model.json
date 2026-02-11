@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:doors",
+        "#minecraft:beds",
+        "#minecraft:campfires",
+        "minecraft:dried_ghast",
+        "minecraft:bell",
+        "minecraft:lectern",
+        "minecraft:repeater",
+        "minecraft:comparator"
+    ]
+}

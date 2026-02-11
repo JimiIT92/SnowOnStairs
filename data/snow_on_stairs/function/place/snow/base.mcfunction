@@ -3,13 +3,13 @@ $summon block_display ~ ~$(offset) ~ {\
     transformation:{\
         left_rotation:[0f,0f,0f,1f],\
         right_rotation:[0f,0f,0f,1f],\
-        translation:[-.499f,0f,-.499f],\
-        scale:[0.998f,1f,0.998f]\
+        translation:[$(translation),0f,$(translation)],\
+        scale:[$(scale),1.001f,$(scale)]\
     },\
     Passengers:[{\
         id:"minecraft:interaction",\
         width:1f,\
-        height:0.125f,\
+        height:0.05f,\
         Tags:["snow_on_stairs.snow",$(shape)]\
     }],\
     Tags: ["snow_on_stairs.snow",$(shape)] \

@@ -3,7 +3,7 @@ scoreboard players remove #snow_on_stairs snow_on_stairs.raycast.steps 1
 
 # Check if a valid block has been hit and place snow accordingly
 execute align xyz positioned ~.5 ~.5 ~.5 \
-    if block ~ ~ ~ #snow_on_stairs:snowable_blocks \
+    if predicate snow_on_stairs:valid_for_snow_placement \
     unless entity @e[tag=snow_on_stairs.snow,distance=..0.99,type=minecraft:interaction] \
     run execute rotated ~ 0 \
         if block ^ ^ ^-1 minecraft:snow \

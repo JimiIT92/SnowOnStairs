@@ -2,7 +2,7 @@
 scoreboard players set #snow_on_stairs snow_on_stairs.raycast.hit 1
 
 # Destroy the placed snow layer block
-setblock ^ ^ ^-1 minecraft:air
+execute positioned ^ ^ ^-1 run function snow_on_stairs:place/utils/cancel_snow_layer_placement
 
 # Place snow block dispaly accordingly
 function snow_on_stairs:place/set
