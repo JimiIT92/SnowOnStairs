@@ -3,8 +3,8 @@ $summon block_display ~ ~$(offset) ~ {\
     transformation:{\
         left_rotation:[0f,0f,0f,1f],\
         right_rotation:[0f,0f,0f,1f],\
-        translation:[-.5001f,0f,-.5001f],\
-        scale:[1.002f,1f,1.002f]\
+        translation:[-.499f,0f,-.499f],\
+        scale:[0.998f,1f,0.998f]\
     },\
     Passengers:[{\
         id:"minecraft:interaction",\

@@ -41,7 +41,7 @@
                 "offsetY": -1,
                 "predicate": {
                     "block": {
-                        "blocks": "#snow_on_stairs:snowable_trapdoors",
+                        "blocks": "#minecraft:trapdoors",
                         "state": {
                             "half": "bottom"
                         }
@@ -53,7 +53,7 @@
                 "offsetY": -1,
                 "predicate": {
                     "block": {
-                        "blocks": "#snow_on_stairs:snowable_trapdoors",
+                        "blocks": "#minecraft:trapdoors",
                         "state": {
                             "half": "top",
                             "open": "true"

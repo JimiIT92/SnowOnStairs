@@ -5,6 +5,4 @@ execute if block ~ ~ ~ #snow_on_stairs:snowable_stairs[half=bottom,shape=inner_r
 execute if block ~ ~ ~ #snow_on_stairs:snowable_stairs[half=bottom,shape=outer_left] run return run function snow_on_stairs:place/snow/stair/outer_left
 execute if block ~ ~ ~ #snow_on_stairs:snowable_stairs[half=bottom,shape=outer_right] run return run function snow_on_stairs:place/snow/stair/outer_right
 execute if block ~ ~ ~ #snow_on_stairs:snowable_slabs[type=bottom] run return run function snow_on_stairs:place/snow/base {offset: 0, shape: "snow_on_stairs.slab"}
-execute if block ~ ~ ~ #snow_on_stairs:snowable_slabs[type=bottom] run return run function snow_on_stairs:place/snow/base {offset: 0, shape: "snow_on_stairs.slab"}
-execute if block ~ ~ ~ #snow_on_stairs:snowable_trapdoors[half=bottom] run return run function snow_on_stairs:place/snow/base {offset: -0.315, shape: "snow_on_stairs.trapdoor"}
 function snow_on_stairs:place/snow/base {offset: -0.5, shape: "snow_on_stairs.base"}
