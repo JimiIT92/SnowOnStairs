@@ -5,4 +5,4 @@ scoreboard players set @s snow_on_stairs.raycast.hit 1
 execute positioned ^ ^ ^-1 run function snow_on_stairs:place/utils/cancel_snow_layer_placement
 
 # Place snow block dispaly accordingly
-function snow_on_stairs:place/set
+function snow_on_stairs:place/set with entity @s
