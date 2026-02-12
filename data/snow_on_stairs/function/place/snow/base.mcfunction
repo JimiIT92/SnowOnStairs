@@ -1,4 +1,4 @@
-$summon block_display ~ ~$(offset) ~ {\
+$summon block_display ^ ^$(offset) ^ {\
     block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
     transformation:{\
         left_rotation:[0f,0f,0f,1f],\
@@ -9,7 +9,7 @@ $summon block_display ~ ~$(offset) ~ {\
     Passengers:[{\
         id:"minecraft:interaction",\
         width:0.85f,\
-        height:0.05f,\
+        height:0.075f,\
         Tags:["snow_on_stairs.snow",$(shape)]\
     }],\
     Tags: ["snow_on_stairs.snow",$(shape)] \
