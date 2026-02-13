@@ -3,7 +3,7 @@ summon block_display ~ ~-.5 ~ {\
     transformation:{\
         left_rotation:[0f,0f,0f,1f],\
         right_rotation:[0f,0f,0f,1f],\
-        translation:[-.5f,0.5f,-.5f],\
+        translation:[-.5f,0.5f,0f],\
         scale:[1f,1f,0.5f]\
     },\
     Passengers:[\
@@ -13,7 +13,7 @@ summon block_display ~ ~-.5 ~ {\
             transformation:{\
                 left_rotation:[-0.7f,0f,0f,0.7f],\
                 right_rotation:[0f,0f,0f,1f],\
-                translation:[0f,0f,1.125f],\
+                translation:[-.5f,0f,0.625f],\
                 scale:[1f,1f,0.625f]\
             },\
             Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
@@ -24,7 +24,7 @@ summon block_display ~ ~-.5 ~ {\
             transformation:{\
                 left_rotation:[-0.7f,0f,0f,0.7f],\
                 right_rotation:[0f,0f,0f,1f],\
-                translation:[0f,0.625f,0.625f],\
+                translation:[-.5f,0.625f,0.125f],\
                 scale:[1f,1f,0.5f]\
             },\
             Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
@@ -35,7 +35,7 @@ summon block_display ~ ~-.5 ~ {\
             transformation:{\
                 left_rotation:[0f,0f,0f,1f],\
                 right_rotation:[0f,0f,0f,1f],\
-                translation:[0f,1f,0f],\
+                translation:[-.5f,1f,-.5f],\
                 scale:[1f,1f,0.5f]\
             },\
             Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
