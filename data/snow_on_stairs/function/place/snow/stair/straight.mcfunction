@@ -3,15 +3,50 @@ summon block_display ~ ~-.5 ~ {\
     transformation:{\
         left_rotation:[0f,0f,0f,1f],\
         right_rotation:[0f,0f,0f,1f],\
-        translation:[-.5f,0f,-.5f],\
-        scale:[1.001f,1.001f,1.001f]\
+        translation:[-.5f,0.5f,-.5f],\
+        scale:[1f,1f,0.5f]\
     },\
-    Passengers:[{\
-        id:"minecraft:interaction",\
-        width:0.85f,\
-        height:0.075f,\
-        Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
-    }],\
+    Passengers:[\
+        {\
+            id:"minecraft:block_display",\
+            block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
+            transformation:{\
+                left_rotation:[-0.7f,0f,0f,0.7f],\
+                right_rotation:[0f,0f,0f,1f],\
+                translation:[0f,0f,1.125f],\
+                scale:[1f,1f,0.625f]\
+            },\
+            Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
+        },\
+        {\
+            id:"minecraft:block_display",\
+            block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
+            transformation:{\
+                left_rotation:[-0.7f,0f,0f,0.7f],\
+                right_rotation:[0f,0f,0f,1f],\
+                translation:[0f,0.625f,0.625f],\
+                scale:[1f,1f,0.5f]\
+            },\
+            Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
+        },\
+        {\
+            id:"minecraft:block_display",\
+            block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
+            transformation:{\
+                left_rotation:[0f,0f,0f,1f],\
+                right_rotation:[0f,0f,0f,1f],\
+                translation:[0f,1f,0f],\
+                scale:[1f,1f,0.5f]\
+            },\
+            Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
+        },\
+        {\
+            id:"minecraft:interaction",\
+            width:0.85f,\
+            height:0.075f,\
+            Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
+        }\
+    ],\
     Tags: ["snow_on_stairs.snow","snow_on_stairs.stair.straight"] \
 }
 
