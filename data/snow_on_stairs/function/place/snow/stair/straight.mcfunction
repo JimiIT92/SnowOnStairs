@@ -1,3 +1,4 @@
+# Spawn the snow block display
 summon block_display ~ ~-.5 ~ {\
     block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
     transformation:{\
@@ -50,4 +51,5 @@ summon block_display ~ ~-.5 ~ {\
     Tags: ["snow_on_stairs.snow","snow_on_stairs.stair.straight"] \
 }
 
-execute positioned ~ ~-.5 ~ run function snow_on_stairs:place/snow/set_rotation
+# Rotate the snow block display according to stair rotation
+execute positioned ~ ~-.5 ~ run function snow_on_stairs:place/snow/stair/util/set_rotation

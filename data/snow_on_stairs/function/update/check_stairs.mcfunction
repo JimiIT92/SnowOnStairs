@@ -1,1 +1,1 @@
-$execute if entity @s[tag=snow_on_stairs.stair.$(shape)] unless block ~ ~ ~ #snow_on_stairs:snowable_stairs[half=bottom,shape=$(shape)] unless predicate snow_on_stairs:should_destroy_snow run say update
+$execute if entity @s[tag=snow_on_stairs.stair.$(shape)] unless block ~ ~ ~ #snow_on_stairs:snowable_stairs[half=bottom,shape=$(shape)] unless predicate snow_on_stairs:should_destroy_snow run function snow_on_stairs:update/stairs
