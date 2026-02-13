@@ -1,3 +1,0 @@
-- stairs (top)
-- stairs update
-- snow piling
