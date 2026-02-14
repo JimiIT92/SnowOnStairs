@@ -6,5 +6,5 @@ scoreboard objectives remove snow_on_stairs.raycast.hit
 scoreboard objectives remove snow_on_stairs.drop_snow
 
 # Remove placed snow block displays and interactions
-kill @e[tag=snow_on_stairs.snow,type=minecraft:block_display]
-kill @e[tag=snow_on_stairs.snow,type=minecraft:interaction]
+kill @e[distance=0..,tag=snow_on_stairs.snow,type=minecraft:block_display]
+kill @e[distance=0..,tag=snow_on_stairs.snow,type=minecraft:interaction]

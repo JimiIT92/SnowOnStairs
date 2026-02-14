@@ -5,7 +5,7 @@ scoreboard players remove @s snow_on_stairs.raycast.steps 1
 execute align xyz positioned ~.5 ~.5 ~.5 \
     if predicate snow_on_stairs:valid_for_snow_placement \
     unless entity @e[tag=snow_on_stairs.snow,distance=..0.99,type=minecraft:interaction] \
-    run execute rotated ~ 0 \
+    rotated ~ 0 \
         if block ^ ^ ^-1 minecraft:snow \
         run return run function snow_on_stairs:place/check
 

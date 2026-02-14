@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:interaction,tag=snow_on_stairs.snow] at @s run function snow_on_stairs:update/check
+execute as @e[distance=0..,tag=snow_on_stairs.snow,type=minecraft:interaction] at @s run function snow_on_stairs:update/check
