@@ -14,6 +14,20 @@
             "Tags": [
               "snow_on_stairs.snow"
             ]
+          },
+          "vehicle": {
+            "type": "minecraft:block_display",
+            "nbt": {
+              "block_state": {
+                "Name": "minecraft:snow",
+                "Properties": {
+                  "layers": "1"
+                }
+              },
+              "Tags": [
+                "snow_on_stairs.snow"
+              ]
+            }
           }
         },
         "item": {

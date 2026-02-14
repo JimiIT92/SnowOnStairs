@@ -43,8 +43,8 @@ summon block_display ~ ~-.5 ~ {\
         },\
         {\
             id:"minecraft:interaction",\
-            width:0.85f,\
-            height:0.075f,\
+            width:1.05f,\
+            height:0.125f,\ 
             Tags:["snow_on_stairs.snow","snow_on_stairs.stair.straight"]\
         }\
     ],\
