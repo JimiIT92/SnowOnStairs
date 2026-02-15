@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:pressure_plates",
+        "#minecraft:buttons",
+        "#minecraft:rails",
+        "minecraft:redstone_wire",
+        "minecraft:repeater",
+        "minecraft:comparator"
+    ]
+}

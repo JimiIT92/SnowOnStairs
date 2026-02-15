@@ -9,8 +9,8 @@ $summon block_display ~ ~$(offset) ~ {\
     },\
     Passengers:[{\
         id:"minecraft:interaction",\
-        width:1.05f,\
-        height:0.06125f,\
+        width:$(interaction_width),\
+        height:$(interaction_height),\
         Tags:["snow_on_stairs.snow",$(shape)]\
     }],\
     Tags: ["snow_on_stairs.snow",$(shape)] \
