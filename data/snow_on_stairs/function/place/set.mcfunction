@@ -1,4 +1,8 @@
-# Place snow block dispaly accordingly
+# Reset the raycast objectives
+scoreboard players reset @s snow_on_stairs.raycast.steps
+scoreboard players reset @s snow_on_stairs.raycast.hit
+
+# Place snow block display accordingly
 execute if block ~ ~ ~ #snow_on_stairs:snowable_stairs[half=bottom,shape=straight] run return run function snow_on_stairs:place/snow/stair/straight
 execute if block ~ ~ ~ #snow_on_stairs:snowable_stairs[half=bottom,shape=inner_left] run return run function snow_on_stairs:place/snow/stair/inner_left
 execute if block ~ ~ ~ #snow_on_stairs:snowable_stairs[half=bottom,shape=inner_right] run return run function snow_on_stairs:place/snow/stair/inner_right

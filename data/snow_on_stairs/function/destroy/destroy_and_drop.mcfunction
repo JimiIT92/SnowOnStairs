@@ -1,3 +1,7 @@
+# Reset the raycast objectives
+scoreboard players reset @s snow_on_stairs.raycast.steps
+scoreboard players reset @s snow_on_stairs.raycast.hit
+
 # Remove the placed snow block display
 function snow_on_stairs:destroy/destroy
 
