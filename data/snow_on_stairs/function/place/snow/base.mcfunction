@@ -11,6 +11,7 @@ $summon block_display ~ ~$(offset) ~ {\
         id:"minecraft:interaction",\
         width:$(interaction_width),\
         height:$(interaction_height),\
+        response: 1b,\
         Tags:["snow_on_stairs.snow",$(shape)]\
     }],\
     Tags: ["snow_on_stairs.snow",$(shape)] \
