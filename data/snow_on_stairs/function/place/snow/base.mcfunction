@@ -4,8 +4,8 @@ $summon block_display ~ ~$(offset) ~ {\
     transformation:{\
         left_rotation:[0f,0f,0f,1f],\
         right_rotation:[0f,0f,0f,1f],\
-        translation:[$(translation),0f,$(translation)],\
-        scale:[$(scale),1.001f,$(scale)]\
+        translation:[$(translation),-.00125f,$(translation)],\
+        scale:[$(scale),1.004f,$(scale)]\
     },\
     Passengers:[{\
         id:"minecraft:interaction",\
