@@ -132,6 +132,17 @@ Alongside predicates, there are some block tags that are used to control how the
     - Blocks that can be _snow-logged_ even if the player is not sneaking
         - All blocks that does not have an interaction or a GUI
 
+If you wish, you can also localize some texts using these translation keys in you resource pack:
+
+- `snow_on_stairs.pack.description`
+    - Changes the pack description as it appears on the Datapack selection screen and on the Datapack root credit advancement
+- `snow_on_stairs.pack.title`
+    - Change the pack title as it appears on the Datapack root credit advancement
+- `snow_on_stairs.original_author.description`
+    - Change the original author description as it appears on the Datapack oOBoomberOo credit advancement
+- `snow_on_stairs.author.description`
+    - Change the author description as it appears on the Datapack Minehendrix credit advancement
+
 ### 🧊 SUPPORTED BLOCKS
 
 The supported blocks can be found inside the `#snow_on_stairs:snowable_blocks` tag. Changing the entries in this list will change the list of blocks that can be _snow-logged_. 

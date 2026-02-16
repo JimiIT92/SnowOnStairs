@@ -8,9 +8,9 @@
         }
       }
     },
-    "title": "Boomber",
+    "title": "oOBoomberOo",
     "description": {
-      "translate": "snow_on_stairs.pack.original_author",
+      "translate": "snow_on_stairs.original_author.description",
       "fallback": "Original datapack creator",
       "type": "translatable",
       "italic": true

@@ -10,7 +10,7 @@
     },
     "title": "Minehendrix",
     "description": {
-      "translate": "snow_on_stairs.pack.creator",
+      "translate": "snow_on_stairs.author.description",
       "fallback": "Author & maintainer",
       "type": "translatable",
       "italic": true
