@@ -143,6 +143,8 @@ If you wish, you can also localize some texts using these translation keys in yo
 - `snow_on_stairs.author.description`
     - Change the author description as it appears on the Datapack Minehendrix credit advancement
 
+And finally, you can even change (or remove) what is being dropped by a _snow-logged_ block by changing the `snow_on_stairs:snow` loot table
+
 ### 🧊 SUPPORTED BLOCKS
 
 The supported blocks can be found inside the `#snow_on_stairs:snowable_blocks` tag. Changing the entries in this list will change the list of blocks that can be _snow-logged_. 
