@@ -2,6 +2,12 @@
 scoreboard players reset @s snow_on_stairs.raycast.steps
 scoreboard players reset @s snow_on_stairs.raycast.hit
 
+# Play the snow break sound
+playsound block.snow.break block @a ~ ~ ~ 1 1 0
+
+# Spawn the snow break particles
+particle minecraft:block_crumble{block_state:{Name:"minecraft:snow"}} ~ ~ ~ .35 .35 .35 1 10 normal @a
+
 # Remove the placed snow block display
 function snow_on_stairs:destroy/destroy
 

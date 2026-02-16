@@ -6,4 +6,4 @@ function snow_on_stairs:update/check_stairs {shape: outer_left}
 function snow_on_stairs:update/check_stairs {shape: outer_right}
 
 # Check if the block is no longer valid and, if so, destroy the snow block display
-execute if predicate snow_on_stairs:should_destroy_snow run function snow_on_stairs:destroy/destroy
+execute if predicate snow_on_stairs:should_destroy_snow run function snow_on_stairs:destroy/destroy_and_drop

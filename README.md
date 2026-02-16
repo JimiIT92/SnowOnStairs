@@ -23,6 +23,7 @@ The way this datapack works is very simple. You just right click with a snow lay
 
 If you wish, you can also remove snow from a _snow-logged_ block by right clicking on its base while sneaking with an empty hand.
 
+> The snow layer will not be dropped if the `block_drops` gamerule is set to false
 
 Check the [full list of supported blocks](#🧊-supported-blocks) below to know which blocks you can interact with.
 
