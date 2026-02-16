@@ -3,9 +3,17 @@
     "icon": {
       "id": "minecraft:snow"
     },
-    "title": "Snow on stairs!",
+    "title": {
+      "translate": "snow_on_stairs.pack.title",
+      "fallback": "Snow on stairs!",
+      "type": "translatable",
+      "color": "#ccf9ff",
+      "shadow_color": 0
+    },
     "description": {
-      "text": "Place snow under stairs, slabs and many more blocks!",
+      "translate": "snow_on_stairs.pack.description",
+      "fallback": "Place snow on stairs, slabs and many more blocks!",
+      "type": "translatable",
       "italic": true
     },
     "background": "minecraft:block/powder_snow",

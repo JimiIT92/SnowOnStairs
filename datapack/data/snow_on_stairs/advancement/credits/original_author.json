@@ -10,7 +10,9 @@
     },
     "title": "Boomber",
     "description": {
-      "text": "Original datapack creator",
+      "translate": "snow_on_stairs.pack.original_author",
+      "fallback": "Original datapack creator",
+      "type": "translatable",
       "italic": true
     },
     "frame": "task",
