@@ -119,11 +119,11 @@ Alongside predicates, there are some block tags that are used to control how the
     - This includes `air` and basically all blocks that don't have a solid top face
 - `#snow_on_stairs:snowable_slabs`
     - Slabs that can be _snow-logged_
-    - Includes all slabs (under the `#minecraft:slabs`) tag.
+    - Includes all slabs under the `#minecraft:slabs` tag.
         - If a slab is not under the `#minecraft:slabs` tag and is not added to this tag, but is in the `#snow_on_stairs:snowable_blocks` tag, the snow layer will always be placed under the slab, regardless of its state
 - `#snow_on_stairs:snowable_stairs`
     - Stairs that can be _snow-logged_
-    - Inclused all stairs (under the `#minecraft:stairs`) tag.
+    - Inclused all stairs under the `#minecraft:stairs` tag.
         - If a stair is not under the `#minecraft:stairs` tag and is not added to this tag, but is in the `#snow_on_stairs:snowable_block` tag, the snow layer will always be placed under the slab, regardless of its state and shape
 - `#snow_on_stairs:snowable_blocks_sneaking`
     - Blocks that can be _snow-logged_ only if the player is sneaking
