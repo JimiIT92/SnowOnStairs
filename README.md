@@ -135,6 +135,8 @@ Alongside predicates, there are some block tags that are used to control how the
 
 The supported blocks can be found inside the `#snow_on_stairs:snowable_blocks` tag. Changing the entries in this list will change the list of blocks that can be _snow-logged_. 
 
+> Adding blocks directly to this tag doesn't have effect. You *must* add blocks to the `#snow_on_stairs:snowable_blocks_no_sneaking` or `#snow_on_stairs:snowable_blocks_sneaking` repsectively to make them work
+
 This also mean that you can add modded blocks to this list as well, if they aren't already in other Minecraft Tags (for instance, if a modded stair is inside the `stairs` tag, it will be automatically supported by the datapack!)
 
 The `#snow_on_stairs:snowable` tag can be used inside the Minecraft inventory to quickly see the list of supported blocks.
