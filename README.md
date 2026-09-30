@@ -710,6 +710,7 @@ Here is the current list of blocks that can be _snow-logged_ (assuming no change
 - Repeater (<u>Requires sneaking</u>)
 - Scaffolding
 - Sea Pickle
+- Shelf Mushroom
 - Slime Block
 - Small Dripleaf
 - Sniffer Egg

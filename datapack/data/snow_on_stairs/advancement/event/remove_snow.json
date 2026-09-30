@@ -17,14 +17,15 @@
         },
         "entity": {
           "type": "minecraft:entity_properties",
+          "entity": "this",
           "predicate": {
             "minecraft:entity_type": "minecraft:interaction",
             "minecraft:vehicle": {
               "minecraft:entity_type": "minecraft:block_display",
               "minecraft:nbt": {
                 "block_state": {
-                  "Name": "minecraft:snow",
-                  "Properties": {
+                  "id": "minecraft:snow",
+                  "properties": {
                     "layers": "1"
                   }
                 },
@@ -32,12 +33,12 @@
                   "snow_on_stairs.snow"
                 ]
               }
+            },
+            "minecraft:nbt": {
+              "Tags": [
+                "snow_on_stairs.snow"
+              ]
             }
-          },
-          "minecraft:nbt": {
-            "Tags": [
-              "snow_on_stairs.snow"
-            ]
           }
         }
       }

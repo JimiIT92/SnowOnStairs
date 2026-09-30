@@ -1,6 +1,6 @@
 # Variables
-$VERSION = "6.1"
-$MC_VERSION = "26.2"
+$VERSION = "7.0"
+$MC_VERSION = "26.3"
 $FULL_PACK_PATH = "Snow on Stairs " + "v" + $VERSION + "-" + $MC_VERSION + ".zip"
 
 # Delete old pack file

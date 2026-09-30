@@ -1,6 +1,6 @@
 # Spawn the snow block display
 summon block_display ~ ~-.5 ~ {\
-    block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
+    block_state:{id:"minecraft:snow",properties:{layers:"1"}},\
     transformation:{\
         left_rotation:[0f,0f,0f,1f],\
         right_rotation:[0f,0f,0f,1f],\
@@ -10,7 +10,7 @@ summon block_display ~ ~-.5 ~ {\
     Passengers:[\
         {\
             id:"minecraft:block_display",\
-            block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
+            block_state:{id:"minecraft:snow",properties:{layers:"1"}},\
             transformation:{\
                 left_rotation:[0f,0f,0f,1f],\
                 right_rotation:[0f,0f,0f,1f],\
@@ -21,7 +21,7 @@ summon block_display ~ ~-.5 ~ {\
         },\
         {\
             id:"minecraft:block_display",\
-            block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
+            block_state:{id:"minecraft:snow",properties:{layers:"1"}},\
             transformation:{\
                 left_rotation:[-0.7f,0f,0f,0.7f],\
                 right_rotation:[0f,0f,0f,1f],\
@@ -32,7 +32,7 @@ summon block_display ~ ~-.5 ~ {\
         },\
         {\
             id:"minecraft:block_display",\
-            block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
+            block_state:{id:"minecraft:snow",properties:{layers:"1"}},\
             transformation:{\
                 left_rotation:[0f,0f,1f,1f],\
                 right_rotation:[0f,0f,0f,1f],\
@@ -43,7 +43,7 @@ summon block_display ~ ~-.5 ~ {\
         },\
         {\
             id:"minecraft:block_display",\
-            block_state:{Name:"minecraft:snow",Properties:{layers:"1"}},\
+            block_state:{id:"minecraft:snow",properties:{layers:"1"}},\
             transformation:{\
                 left_rotation:[0f,0f,0f,1f],\
                 right_rotation:[0f,0f,0f,1f],\
