@@ -11,7 +11,7 @@
         <a href="https://modrinth.com/datapack/snow-on-stairs" target="_blank">
             <img src="https://img.shields.io/modrinth/dt/M1sIP877?logo=modrinth&label=Modrinth&color=darkgreen" alt="Modrinth downloads" />
         </a>
-        <img src="https://img.shields.io/badge/Version-6.1-blue" alt="Datapack version" />
+        <img src="https://img.shields.io/badge/Version-7.0-blue" alt="Datapack version" />
     </p>
 </p>
 
