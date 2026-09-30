@@ -1,10 +1,10 @@
 {
   "pack": {
     "min_format": [
-      107,
-      1
+      121,
+      0
     ],
-    "max_format": 107,
+    "max_format": 121,
     "description": {
       "translate": "snow_on_stairs.pack.description",
       "fallback": "Place snow on stairs, slabs and many more blocks!",

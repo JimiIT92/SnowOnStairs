@@ -3,76 +3,73 @@
     "place_snow": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:snow"
-            }
-          },
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:reference",
-                "name": "snow_on_stairs:valid_for_snow_placement"
-              },
-              {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "block": {
-                      "blocks": "#snow_on_stairs:snowable_slabs",
-                      "state": {
-                        "type": "double"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:any_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:location_check",
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:snow"
+              }
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                "snow_on_stairs:valid_for_snow_placement",
+                {
+                  "type": "minecraft:inverted",
+                  "term": {
+                    "type": "minecraft:location_check",
                     "predicate": {
                       "block": {
-                        "blocks": "#snow_on_stairs:snowable_blocks_no_sneaking"
+                        "blocks": "#snow_on_stairs:snowable_slabs",
+                        "state": {
+                          "type": "double"
+                        }
                       }
                     }
-                  },
-                  {
-                    "condition": "minecraft:reference",
-                    "name": "snow_on_stairs:is_sweet_berry_bush"
-                  },
-                  {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                      {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                          "flags": {
-                            "is_sneaking": true
-                          }
-                        }
-                      },
-                      {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                          "block": {
-                            "blocks": "#snow_on_stairs:snowable_blocks_sneaking"
-                          }
+                  }
+                },
+                {
+                  "type": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "blocks": "#snow_on_stairs:snowable_blocks_no_sneaking"
                         }
                       }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+                    },
+                    "snow_on_stairs:is_sweet_berry_bush",
+                    {
+                      "type": "minecraft:all_of",
+                      "terms": [
+                        {
+                          "type": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "minecraft:flags": {
+                              "is_sneaking": true
+                            }
+                          }
+                        },
+                        {
+                          "type": "minecraft:location_check",
+                          "predicate": {
+                            "block": {
+                              "blocks": "#snow_on_stairs:snowable_blocks_sneaking"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       }
     }
   },

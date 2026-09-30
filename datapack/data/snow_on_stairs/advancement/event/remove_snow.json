@@ -4,34 +4,41 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "player": {
-          "flags": {
-            "is_sneaking": true
-          }
-        },
-        "entity": {
-          "type": "minecraft:interaction",
-          "nbt": {
-            "Tags": [
-              "snow_on_stairs.snow"
-            ]
-          },
-          "vehicle": {
-            "type": "minecraft:block_display",
-            "nbt": {
-              "block_state": {
-                "Name": "minecraft:snow",
-                "Properties": {
-                  "layers": "1"
-                }
-              },
-              "Tags": [
-                "snow_on_stairs.snow"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_sneaking": true
             }
           }
         },
         "item": {
           "items": "minecraft:air"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:block_display",
+              "minecraft:nbt": {
+                "block_state": {
+                  "Name": "minecraft:snow",
+                  "Properties": {
+                    "layers": "1"
+                  }
+                },
+                "Tags": [
+                  "snow_on_stairs.snow"
+                ]
+              }
+            }
+          },
+          "minecraft:nbt": {
+            "Tags": [
+              "snow_on_stairs.snow"
+            ]
+          }
         }
       }
     }
